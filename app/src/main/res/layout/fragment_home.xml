@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="iTunes"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="Search for a variety of content from the iTunes store including iBooks, movies, podcasts, music, music videos, and audiobooks."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/searchTermInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        android:hint="Enter search term"
+        android:inputType="text"
+        android:padding="12dp"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#CCCCCC" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Specify the parameter for the content to be searched"
+        android:textColor="#FFFFFF" />
+
+    <RadioGroup
+        android:id="@+id/mediaTypeGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/podcast"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Podcast"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioMusicVideo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music Video"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/radioSong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Song"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#333333"
+        android:text="Submit"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

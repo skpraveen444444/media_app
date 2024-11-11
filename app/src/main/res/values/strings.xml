@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Media App</string>
+    <string name="image_description">Artwork</string>
+    <string name="description">Description</string>
+    <string name="nav_back">Navigating to Previous Screen</string>
+    <string name="preview">Preview</string>
+</resources>

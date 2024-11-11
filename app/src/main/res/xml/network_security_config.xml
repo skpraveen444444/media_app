@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">itunes.apple.com</domain>
+        <pin-set>
+            <pin digest="SHA-256">YR/iZQqnWh8Roqw62rrgqUn6Fm6HOkdh6skmQ60OZi4=</pin>
+            <pin digest="SHA-256">4ZMBBKlWyhpdsKqKnbXEkuo4CnSxw6b7svlcKIJWfEA=</pin>
+        </pin-set>
+    </domain-config>
+</network-security-config>
